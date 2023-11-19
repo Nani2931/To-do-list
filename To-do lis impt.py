@@ -96,7 +96,7 @@ def main():
             filename = input("Enter the file name to load tasks: ")
             todo_list.load_from_file(filename)
         elif choice == '9':
-            print("Exiting the to-do list app. Goodbye!")
+            print("Exiting the to-do list app. Have a great day!")
             break
         else:
             print("Invalid choice. Please enter a number between 1 and 9.")
